@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Главная страница трека</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./css/track-main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="t-full-content">
+        <section class="t-header">
+            <div class="t-container">
+                <div class="t-header-top">
+                    <div class="t-header-logo">
+                        <img src="./images/logo-picture.svg" alt="">
+                        <img src="./images/logo-text.svg" alt="">
+                    </div>
+                    <div class="t-header-telegram">
+                        <span class="t-header-telegram__text">Отследить через Telegram-бота </span>
+                        <img src="./images/telegram-icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="t-header__content">
+                    <h1 class="t-header__content-title">Отслеживание почтовых отправлений и посылок</h1>
+                    <h3 class="t-header__content-subhead">Введите трек-номер, чтобы узнать где находится ваша посылка или письмо</h3>
+                    <form class="t-header__content-form" action="">
+                        <input class="t-header__content-input" type="text" placeholder="Введите трек-номер">
+                        <input class="t-header__content-submit" type="submit" value="Отследить">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="t-content">
+            <div class="t-container">
+                <h3 class="t-content__head">Трек номер указан</h3>
+                <div class="t-track-post">
+                    <div class="t-track-post__checlist">
+                        <img src="./images/checklist-icon.svg" alt="">
+                        <p class="t-track-paragraph t-track-post_indent"><b class="t-track_bold">в чеке</b> при отправлении посылки, заказного письма, заказной бандероли или заказной открытки;</p>
+                    </div>
+                    <div class="t-track-post__pretext">
+                        <span class="t-track-paragraph">либо</span>
+                    </div>
+                    <div class="t-track-post__checlist">
+                        <img src="./images/lk-icon.svg" alt="">
+                        <p class="t-track-paragraph t-track-post_indent"><b class="t-track_bold">в личном кабинете</b> при совершении покупки в интернет-магазине.</p>
+                    </div>
+                </div>
+                <div class="t-track-mail">
+                    <p class="t-track-paragraph">Трек-номер <b class="t-track_bold">отправлений по России</b> состоит из 14 цифр.
+                        <span class="t-track-mail_block">Его нужно вводить без пробелов и скобок.</span>
+                        <span class="t-track-mail_block">Например: 11122221455867.</span></p>
+                </div>
+                <div class="t-track-international">
+                    <p class="t-track-paragraph">Трек-номер <b class="t-track_bold">международных отправлений</b> состоит из 13 символов
+                        латинских заглавных букв и цифр.
+                        <span class="t-track-international_block">Его нужно вводить без пробелов и скобок.</span>
+                        <span class="t-track-international_block">Например: CA987654321RU.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="t-footer">
+            <div class="t-container">
+                <div class="t-footer-telegram">
+                    <h2 class="t-footer-telegram__head">Вы можете отследить посылку через Telegram-бота</h2>
+                    <img src="./images/telegram-icon.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+</html>
